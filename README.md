@@ -5,6 +5,7 @@ The goal is to jump-start moving forward from research to production.
 Docker containers establish a very lightweight virtualization solution that may
 support the reproducibility and portability of ML model development and deployment.
 
+
 ## Instructions
 
 1.  Install the [Docker Engine](https://docs.docker.com/engine/).
@@ -27,5 +28,10 @@ support the reproducibility and portability of ML model development and deployme
 4.  Create and run a container from the image:
     ```
     docker run -p 8888:8888 my-image
+    ```
+
+5.  You can also run a container interactively:
+    ```
+    docker run -it --rm --entrypoint /bin/bash my-image
     ```
 
