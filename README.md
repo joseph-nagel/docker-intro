@@ -15,6 +15,13 @@ support the reproducibility and portability of ML model development and deployme
       At the very least, the commands below have to be run with root privileges.
     - You may want to familiarize yourself with some Docker commands, for example by consulting `docker help`.
 
+        | Command | Description |
+        | ------------- | ------------- |
+        | `docker images` | List available images |
+        | `docker rmi <image_name>` | Remove image |
+        | `docker ps` | List running containers |
+        | `docker ps -a` | List all containers |
+
 2.  Make sure that everything works properly:
     ```
     docker run hello-world
