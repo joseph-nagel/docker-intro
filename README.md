@@ -41,4 +41,3 @@ support the reproducibility and portability of ML model development and deployme
     ```
     docker run -it --rm --entrypoint /bin/bash my-image
     ```
-

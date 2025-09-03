@@ -15,4 +15,3 @@ EXPOSE 8888
 # run at container start
 # CMD ["python", "hello_world.py"]
 CMD ["jupyter", "notebook", "--no-browser", "--port=8888", "--ip=0.0.0.0", "--allow-root"]
-
