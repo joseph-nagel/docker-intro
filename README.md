@@ -27,7 +27,7 @@ support the reproducibility and portability of ML model development and deployme
     docker run hello-world
     ```
 
-3.  Build an image from the shipped dockerfile:
+3.  Build an image from the shipped Dockerfile:
     ```
     docker build -t my-image .
     ```
